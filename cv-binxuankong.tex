@@ -1,0 +1,158 @@
+%-------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%-------------------------------------------------------------------------------------
+
+\documentclass{techresume} % Use the custom resume.cls style
+
+\usepackage{enumitem}
+\usepackage[left=0.5in,top=0.4in,right=0.5in,bottom=0.5in]{geometry}
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{BIN XUAN KONG} % Your name
+\address{(+60)126112151 \\ binxuankong@gmail.com \\ github.com/binxuankong}
+
+\begin{document}
+
+%-------------------------------------------------------------------------------------
+%	PROFILE SUMMARY
+%-------------------------------------------------------------------------------------
+
+\begin{rSection}{Profile Summary}
+
+Data Science practitioner with 5+ years of experience delivering end-to-end AI/ML systems, specializing in GenAI, LLM applications, applied machine learning, MLOps, and large-scale data product development. Proven track record of architecting and deploying award-winning GenAI products, leading cross-functional delivery, and scaling ML systems in production environments across fintech, healthtech, and enterprise domains.
+
+\end{rSection}
+
+%-------------------------------------------------------------------------------------
+%	TECHNICAL SKILLS
+%-------------------------------------------------------------------------------------
+
+\begin{rSection}{Skills}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Leadership & Technical leadership, AI product direction, cross-functional alignment, \\
+& stakeholder management, roadmap ownership \\
+AI/ML & Supervised \& Unsupervised Learning, GenAI/LLMs, RAG, NLP, Computer Vision, \\
+& Recommendation Systems, Multi‑Agent Systems \\
+MLOps & AWS (ECS/EC2/Lambda), Terraform, CI/CD, Airflow, Docker, Kubernetes, dbt \\
+Programming & Python, SQL, Java, NumPy, Pandas, Scikit-Learn, PyTorch, TensorFlow, Hugging Face \\
+Soft Skills & Problem Solving, Ownership, Technical Communication, Mentoring, Fast Delivery \\
+Languages & English (Native/Bilingual), Chinese Simplified (Native/Bilingual), Malay (Professional)
+\end{tabular}
+
+\end{rSection}
+
+%-------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%-------------------------------------------------------------------------------------
+
+\begin{rSection}{Work Experience}
+
+\begin{rSubsection}{GXBank}{Jul 2023 - Present}{Data Scientist, Senior Specialist}{Selangor, Malaysia}
+    \item Led architecture and end-to-end development of \textbf{AiNi}, a multi-agent GenAI chatbot with secure verification flows, RAG pipelines, and live-agent orchestration. Achieved 47\% automated containment, significantly reducing customer support load.
+    \item Designed and built an \textbf{internal GenAI assistant} for customer support, improving knowledge retrieval, accuracy, and response speed.
+    \item Led \textbf{VoC360}, a bank-wide voice-of-customer AI insights platform—centralizing unstructured data streams and deploying an insights LLM assistant.
+    \item Architected and deployed \textbf{GuardPlus} (rule-based document tampering detection) and \textbf{GuardAI} (GenAI-augmented tampering detection). Improved detection coverage and reduced rule maintenance overhead.
+    \item Led design and development of \textbf{GXScan}, a document intelligence engine involving OCR extraction, transaction categorisation, and business legitimacy scoring.
+    \item Built \textbf{Customer Lifetime Value (CLV)} and \textbf{churn prediction} models using survival analysis, achieving 93\% ROC on test data.
+    \item Delivered ML components for \textbf{AML and name-matching systems}, including improved localized name equivalence models.
+    \item Implemented \textbf{content-moderation CV models}, including profanity and inappropriate image scanning.
+    \item Partnered with MLOps and SRE teams to productionize ML systems using Terraform, Helm, GitLab CI/CD, Airflow, with strong observability and monitoring.
+\end{rSubsection}
+
+\begin{rSubsection}{Naluri}{Jun 2022 - Jun 2023}{Data Scientist}{Kuala Lumpur, Malaysia}
+    \item Built segmentation and recommendation systems for digital health coaching, enabling personalized interventions.
+    \item Developed predictive models for user health outcome improvements.
+    \item Created a computer vision fitness-tracking prototype for exercise repetition counting.
+    \item Designed web scrapers and fine-tuned image models for food-image classification.
+    \item Managed AWS EC2/ECS infrastructure and ETL pipelines (dbt, Prefect, Redshift).
+\end{rSubsection}
+
+\newpage
+
+\begin{rSubsection}{The Center of Applied Data Science (CADS)}{Mar 2020 - Jun 2022}{Data Science Specialist}{Kuala Lumpur, Malaysia}
+    \item Designed a multi-source data integration pipeline for analytics.
+    \item Developed ML models for sales opportunity prediction on Salesforce data.
+    \item Built job/skills/learning recommendation systems deployed as Flask APIs.
+    \item Performed large-scale web scraping and text mining for labour-market insights.
+\end{rSubsection}
+
+\begin{rSubsection}{Maxis}{Jul 2017 - Aug 2017}{Business Intelligence Intern}{Kuala Lumpur, Malaysia}
+    \item Developed Qlik dashboards and performed data extraction using Oracle SQL.
+\end{rSubsection}
+
+\end{rSection}
+
+%-------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%-------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+\begin{rSubsection}{Imperial College London}{Sep 2018 - Sep 2019}{MSc Advanced Computing}{Result: Distinction}
+\end{rSubsection}
+
+\begin{rSubsection}{University of Manchester}{Sep 2015 - Jun 2018}{BSc(Hons) Computer Science and Mathematics}{Classification: First Class}
+\end{rSubsection}
+
+\begin{rSubsection}{Taylor's College Subang Jaya}{Jan 2014 - Jun 2015}{Cambridge International A Level}{Chemistry (A*), Physics (A*), Mathematics (A*)}
+\end{rSubsection}
+
+\end{rSection}
+
+%-------------------------------------------------------------------------------------
+%	PROJECTS SECTION
+%-------------------------------------------------------------------------------------
+
+\begin{rSection}{Projects}
+
+\begin{rSubsection}{Deep Image Reconstruction from Brain Activity}{Apr 2019 - Sep 2019}{Imperial College London}{}
+    \item Built a dual-GAN architecture to reconstruct images from EEG/fMRI signals.
+    \item Replicated state-of-the-art CNN inversion methods for evaluation.
+\end{rSubsection}
+
+\begin{rSubsection}{Poetry Generation using Deep Learning}{Sep 2017 - Apr 2018}{The University of Manchester}{}
+    \item Built RNN/GRU‑based text generation models for topic-based poetry.
+\end{rSubsection}
+    
+\end{rSection}
+
+%-------------------------------------------------------------------------------------
+%	ACHIEVEMENTS SECTION
+%-------------------------------------------------------------------------------------
+
+\begin{rSection}{Awards and Achievements}
+
+\begin{rSubsection}{Global Retail Banking Innovation Awards 2025}{The Digital Banker}{}{}
+    \item Won the \textbf{Outstanding Interactive Chatbot Service by a Digital Bank} and \textbf{Best Gen-AI Chatbot Initiative - By a Neobank} awards for AiNi.
+\end{rSubsection}
+
+\begin{rSubsection}{Global AI Innovation Awards 2025}{The Digital Banker}{}{}
+    \item Won the \textbf{Outstanding AI Initiative for Financial Inclusion} and \textbf{Outstanding Use of AI for Front Office} awards for AiNi.
+\end{rSubsection}
+
+\begin{rSubsection}{Global Retail Banking Innovation Awards 2024}{The Digital Banker}{}{}
+    \item Won the \textbf{Outstanding Use of Advanced Analytics} and \textbf{Best Gen-AI Retail Product Initiative} awards for VoC360.
+    \item Won the \textbf{Best Data Analytics Initiative} (Highly Acclaimed) award as part of the DSA team.
+\end{rSubsection}
+
+\begin{rSubsection}{Asian Banking \& Finance Retail Banking Awards 2024}{Asian Banking \& Finance}{}{}
+    \item Won the \textbf{Analytics Initiative of the Year} award as part of the DSA team.
+\end{rSubsection}
+
+\begin{rSubsection}{Certificate of Excellence}{The University of Manchester}{}{}
+    \item Awarded to the top 10\% of graduating students in the School of Computer Science
+\end{rSubsection}
+
+\end{rSection}
+
+%-------------------------------------------------------------------------------------
+%	REFERENCE AVAILABLE
+%-------------------------------------------------------------------------------------
+
+\sectionskip
+\sectionlineskip
+\hrule
+{\bf References available on request}
+
+\end{document}
